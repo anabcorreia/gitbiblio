@@ -52,13 +52,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['devolver'])) {
     <link rel="stylesheet" href="estilo.css">
     <title></title>
 </head>
-<body style="background-color: #18929D;"> 
+<body style="background-color: whitesmoke;"> 
 
     <header>
 
 
    
-        <h2>BooK</h2>
+        <h2>Book</h2>
         <div class="links">
             <a href="index.php">
                 <ion-icon name="home-outline"></ion-icon>
@@ -71,7 +71,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['devolver'])) {
         </div>
    
         <div class="user-icon" id="user-icon" onclick="showUserInfo()">
-            <ion-icon name="person-circle-outline"></ion-icon>
+            <img class="user" src="Public/Assets/perfil.png">
         </div>
         <div class="user-info" id="user-info">
         <?php
@@ -97,37 +97,28 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['devolver'])) {
     </header>
     <section>
         <div class="banner">
-            <div class="lines"></div>
-            <div class="lines2"></div>
+            
             <img src="Public/Assets/Sob o luar sereno da noite sábia Na biblioteca silente, a luz inicia, Páginas sussurram segredos guardados O sereno dança nos livros encantados.png">
-            <div class="lines"></div>
-            <div class="lines2"></div>
+
         </div>
-        <div class="bioP">
-            <img src="Public/Assets/Pietro.jpeg" alt="Pietro">
-            <div class="lineBio"></div>
-            <div class="desc"><p>Pietro, nascido em uma pequena cidade costeira, é um escritor mestre que transforma pensamentos em prosa e sentimentos em poesia. 
-            Sua jornada literária começou nos diários, evoluindo para uma fusão de estudo acadêmico e paixão desenfreada por palavras. 
-            Graduado em Letras, tornou-se um colaborador destacado neste site, conquistando corações com suas palavras que capturam a essência da experiência humana.
-            Além de sua escrita envolvente, Pietro é conhecido por sua abordagem colaborativa e pelo estímulo aos escritores emergentes. 
-            Neste aniversário, celebramos sua contribuição única e aguardamos ansiosamente o que o futuro reserva sob sua pena magistral.</p></div>
-        </div>
+       
         <div class="bioO">
-            <img src="Public/Assets/Oscar.jpeg" alt="Oscar">
+            <img src="Public/Assets/loogo.png" alt="Oscar">
             <div class="lineBio"></div>
-            <div class="desc"><p>Oscar Osvaldo é um talentoso autor e programador cujo dom para contar histórias se funde elegantemente com sua habilidade em código. 
-            Desde jovem, Oscar cativou leitores com narrativas envolventes, e ao abraçar a era digital, ele se tornou um mestre na programação, criando soluções inovadoras.
-            Contribuindo significativamente para este site, Oscar é reconhecido por seus artigos informativos e por compartilhar seu conhecimento tanto em escrita quanto em programação.
-            Sua paixão por inspirar outros é evidente, tornando-o uma figura respeitada na comunidade online. 
-            Oscar Osvaldo continua a explorar os limites entre palavras e códigos, deixando um impacto duradouro como um pioneiro em ambos os campos.</p></div>
+            <div class="desc"><p>A Biblioteca Virtual Book é um oásis para amantes da leitura e ávidos por conhecimento. Com acesso a uma vasta coleção de livros digitais de diferentes gêneros e temas, essa plataforma foi cuidadosamente projetada para oferecer uma experiência única de imersão no universo da leitura. 
+
+Os usuários da Biblioteca Virtual Book têm a oportunidade de explorar uma ampla variedade de obras, desde clássicos intemporais até os mais recentes best-sellers.  
+
+A Biblioteca Virtual Book é mais do que um repositório de livros; é um portal que conecta pessoas ao poder transformador da informação e do entretenimento literário. Seja para aprender, se aventurar por mundos fictícios ou simplesmente relaxar com uma boa leitura, a Book é o destino ideal para quem busca mergulhar no mar infinito de histórias e conhecimento. </p></div>
         </div>
         <div class="pub">
             <div class="cub"></div>
-            <div class="pubtext"><p>Clique <a href="book.php">Aqui</a> para acessar nosso acervo digital!</p></div>
+            <div class="pubtext"><a href="book.php">
+             <div class="acervo"><h1>Acervo</h1></div></a> </div>
         </div>
     </section>
     <footer>
-        <p>Todos os direitos reservados</p>
+        <p></p>
     </footer>
 </body>
 </html>

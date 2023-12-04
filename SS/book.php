@@ -41,7 +41,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['devolver'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Public/Css/style_book.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Euphoria+Script&display=swap">
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <script src="Public/Js/script.js"></script>
@@ -54,7 +53,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['devolver'])) {
 </head>
 <body>
     <header>
-        <h2>Serene Library</h2>
+        <h2>Book</h2>
         <div class="links">
             <a href="index.php">
                 <ion-icon name="home-outline"></ion-icon>
@@ -67,7 +66,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['devolver'])) {
         </div>
    
         <div class="user-icon" id="user-icon" onclick="showUserInfo()">
-            <ion-icon name="person-circle-outline"></ion-icon>
+            <img src="Public/Assets/perfil.png" class="user">
         </div>
         <div class="user-info" id="user-info">
         <?php
@@ -93,7 +92,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['devolver'])) {
     </header>
     <section>
         <div class="acervo">
-            <h1>Nosso Acervo</h1>
+            <h1>< Seja bem-vindo ao Acervo ></h1>
         </div>
                 <div class="livros">
             <?php foreach ($livrosPorCategoria as $categoria => $livrosNaCategoria): ?>
@@ -126,7 +125,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['devolver'])) {
         </div>
     </section>
     <footer>
-        <p>Todos os direitos reservados</p>
+       
     </footer>
 </body>
 </html>

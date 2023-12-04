@@ -6,10 +6,6 @@
     outline: 0;
   }
 
-  @font-face {
-    font-family: 'EuphoriaScript';
-    src: url('Public/Fonts/EuphoriaScript-Regular.ttf') format('truetype');
-  }
   
 /* MENU */
 header {
@@ -18,13 +14,11 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 96px;
-  border-radius: 0px 0px 20.9px 20.9px;
-  background: rgba(224, 85, 118, 1);
+  background: #18929D;
   padding: 10px;
   margin: 0 0 50px 0;
 }
 header h2{
-  font-family: Euphoria Script;
   font-size: 50px;
   font-weight: 400;
   line-height: 75px;
@@ -78,7 +72,6 @@ header h2{
   margin: 0 0 80px 0;
 }
 .acervo h1{
-  font-family: Aubrey;
   font-size: 48px;
   font-weight: 400;
   line-height: 67px;
@@ -117,7 +110,7 @@ header h2{
 }
 .categoria {
   border: 1px solid  rgb(0, 0, 0);
-  background: rgba(224, 85, 117, 0.756);
+  background: #6dc3cb;
   padding: 0 0 20px 0;
 }
 .livrobox {
@@ -132,17 +125,15 @@ header h2{
 
 /* FOOTER */
 footer {
-  border-radius: 20.9px 20.9px 0px 0px;
   display: flex;
   width: 97vw;
   height: 67px;
-  background: rgba(0, 0, 0, 1);
+  background: rgb(144, 144, 144);
   align-items: center;
   padding: 15px;
   margin: 50px 0 0 0;
 }
 footer p {
-  font-family: Aubrey;
   font-size: 32px;
   font-weight: 400;
   line-height: 33px;
@@ -190,4 +181,8 @@ footer p {
 .user-icon ion-icon {
     width: 50px;
     height: 65px;
+}
+img.user {
+  width: 50px;
+  height: 47px;
 }

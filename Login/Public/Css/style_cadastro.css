@@ -5,21 +5,13 @@
   box-sizing: none;
   outline: 0;
 }
-@font-face {
-  font-family: 'EuphoriaScript';
-  src: url('Public/Fonts/EuphoriaScript-Regular.ttf') format('truetype');
-}
 
-body {
-  font-family: 'EuphoriaScript', sans-serif;
-}
 .cadastro_section {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .cadastro_section h1 {
-  font-family: Euphoria Script;
   font-size: 133px;
   font-weight: 400;
   line-height: 130px;
@@ -43,7 +35,6 @@ body {
     justify-content: space-around;
 }
 .cadastro_box h2 {
-    font-family: Euphoria Script;
     font-size: 64px;
     font-weight: 400;
     line-height: 75px;

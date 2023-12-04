@@ -9,7 +9,7 @@ body {
 }
 
 a {
-    color: #333;
+    color: #18929D;
     text-decoration: none;
     margin-bottom: 10px;
 }
@@ -32,7 +32,7 @@ input, button {
 }
 
 button {
-    background-color: #333;
+    background-color: #18929D;
     color: white;
     cursor: pointer;
 }
@@ -47,7 +47,7 @@ button {
 }
 
 h2 {
-    background-color: #333;
+    background-color: #18929D;
     color: white;
     padding: 10px;
     margin: 0;

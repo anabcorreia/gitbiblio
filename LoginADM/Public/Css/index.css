@@ -20,10 +20,11 @@ button ion-icon{
     outline: 0;
   }
 body {
-    background: rgb(245, 136, 162);
+    background: #18929D;
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: white;
 }
 html {
     width: 100%;

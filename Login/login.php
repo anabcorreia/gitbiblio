@@ -7,8 +7,6 @@ session_start();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Euphoria+Script&display=swap">
-    <link rel="stylesheet" href="https://fonts.google.com/specimen/Aubrey">
     <link rel="shortcut icon" href="Public/Assets/_31554896-b491-466e-b129-d77e088c3b0c-removebg-preview.png" type="image/x-icon">
     <link rel="stylesheet" href="Public/Css/style_login.css">
     <script src="Public/Js/script.js"></script>
