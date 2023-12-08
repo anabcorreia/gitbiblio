@@ -15,8 +15,8 @@
         session_start();
         include '../Login/verifica_login.php'
     ?>
-    <h2>Seja Bem-vindo <?php echo $_SESSION['usuarioNomedeUsuario'] , "!"; ?> </h2>
-    <button id="log" onclick="logout()"><ion-icon name="log-out-outline"></ion-icon></button><br>
+    <h2>Seja Bem-vindo <?php echo $_SESSION['usuarioNomedeUsuario'] , "!"; ?> </h2><br><br>
+    <button id="log" onclick="logout()"><ion-icon name="log-out-outline"></ion-icon></button><br><br><br>
     <div class="container">
         <a href="livro.php">Livros</a>
         <a href="users.php">Users</a>

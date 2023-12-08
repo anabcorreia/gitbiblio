@@ -265,17 +265,19 @@ footer p {
 /* USER ICON */
 .user-info {
   right: 0;
-  display: none;
-  position: absolute;
-  background-color: #888888;
-  border: 1px solid #cacaca;
-  padding: 0.625rem;
-  margin: 46px 50px 0 0;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-  height: 140px;
-  width: 100px;
-  resize: both;
-  overflow: auto;
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    border: 1px solid #cacaca;
+    padding: 0.625rem;
+    margin: 46px 50px 0 0;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    height: 140px;
+    width: 100px;
+    resize: both;
+    overflow: auto;
+    font-family: sans-serif;
+    color: #6DC3CB;
 }
 .user-info button#log{
   background: #cacaca00;
